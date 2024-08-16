@@ -1,7 +1,7 @@
 const { faker } = require("@faker-js/faker");
 const fs = require("fs");
 
-let data = { products: [], customers: [] };
+let data = { products: [], customers: [], login: [] };
 
 for (let i = 0; i < 200; i++) {
   data.products.push({
@@ -22,6 +22,11 @@ for (let j = 0; j < 200; j++) {
     email: faker.internet.email(),
   });
 }
+
+data.login.push({
+  user: "teste@teste.com",
+  password: "12345678",
+});
 
 const file = "./bd.json";
 
