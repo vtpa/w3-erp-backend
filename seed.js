@@ -20,6 +20,7 @@ for (let j = 0; j < 200; j++) {
     name: faker.company.name(),
     phone: faker.phone.number(),
     email: faker.internet.email(),
+    percentage: faker.number.float({ min: -1, max: 1 }),
   });
 }
 
