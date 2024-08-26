@@ -11,7 +11,7 @@ npm install
 Criando um arquivo de banco de dados:
 
 ```bash
-npm run dev:generator
+npm run dev:generate
 ```
 
 Rodando o servidor:
