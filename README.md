@@ -38,6 +38,7 @@ Serving ./public directory if it exists
 Endpoints:
 http://localhost:3000/products
 http://localhost:3000/customers
+http://localhost:3000/login
 ```
 
 A partir desse momento, você poderá acessar os dados nos dois endpoint indicados acima.
